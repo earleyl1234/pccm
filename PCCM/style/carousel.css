@@ -1,0 +1,59 @@
+﻿body {
+}
+.tdcar
+       {
+           padding-top:59px;
+           height:109px;
+           text-align:center;
+           
+       }
+			html, body {
+		
+			}
+			body {
+		
+			}  
+			body h3 {
+			
+			}
+			body * {
+		
+			}
+			#cwrapper, #prev, #next {
+				border-top: 1px solid #ffffff;
+				border-bottom: 1px solid #ffffff;
+				height: 80px;
+				/*position: absolute;*/             
+				/*top: 368%;*/
+				/*margin-top: -185px;*/
+                border:1px solid #f5f5f5;
+			}
+			#cwrapper {
+				width: 100%;
+				/*left: 5%;*/
+				overflow: hidden;
+				box-shadow: 0 0 0px #ccc;
+			}
+
+			#carousel img {
+				margin: 10px 5px;
+				border:1px solid #f5f5f5;
+				display: block;
+				float: left;
+			}
+			
+			#prev, #next {
+				background: center center no-repeat #ffffff;
+				width: 5%;
+			}
+			#prev:hover, #next:hover {
+				background-color: #f5f5f5;
+			}
+			#prev {
+				background-image: url( img/gui-prev.png );
+				left: 0;
+			}
+			#next {
+				background-image: url( img/gui-next.png );
+				right: 0;
+			}
