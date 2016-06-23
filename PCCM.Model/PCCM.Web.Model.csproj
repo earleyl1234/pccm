@@ -7,8 +7,8 @@
     <ProjectGuid>{5DBDFB8A-CFE7-4D4E-9181-24404775227C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PCCM.Model</RootNamespace>
-    <AssemblyName>PCCM.Model</AssemblyName>
+    <RootNamespace>PCCM.Web.Model</RootNamespace>
+    <AssemblyName>PCCM.Web.Model</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,8 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Events.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rentals.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
