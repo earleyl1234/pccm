@@ -1,6 +1,6 @@
 ﻿using Owin;
 
-namespace IdentitySample
+namespace PCCM.Web
 {
     public partial class Startup
     {
