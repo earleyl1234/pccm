@@ -11,7 +11,9 @@
 </head>
 <body>
     <div class="top-banner">
-        <img src="~/Content/images/Mentopolitan-Philippines.jpg" />
+        <div class="banner-text">
+            <h1>@UIStrings.WebTitle</h1>
+        </div>
     </div>
     <div class="navbar navbar-inverse navbar-default navbar-static-top">
         <div class="container">
@@ -26,8 +28,79 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink(UIStrings.Home, "Index", "Home")</li>
-                    <li>@Html.ActionLink(UIStrings.About, "About", "Home")</li>
-                    <li>@Html.ActionLink(UIStrings.Contact, "Contact", "Home")</li>
+                    @*<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@UIStrings.About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Mission and Values</a></li>
+                            <li><a href="#">Officers</a></li>
+                            <li><a href="#">Staffs</a></li>
+                            <li><a href="#">Membership</a></li>
+                            <li><a href="#">Founders</a></li>
+                            <li><a href="#">Sponsors & Donors</a></li>
+                            <li><a href="#">Affiliates & Partners</a></li>
+                            <li><a href="#">Confidentiality & Conflict of Interest Agreement</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </li>*@
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@UIStrings.ProgramsAndServices <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Rental of Facility</a></li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1">Employment Support</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Professionals</a></li>
+                                    <li><a href="#">Skilled Worker</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a tabindex="-1">Programs</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Mentorship</a></li>
+                                            <li><a href="#">Practicum Opportunities</a></li>
+                                            <li><a href="#">Job Search Workshops</a></li>
+                                            <li><a href="#">Canadian Work Experience</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Business Start-Up & Settlement</a></li>
+                            <li><a href="#">Walk-In Counseling</a></li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1">Language Training</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Spoken Tagalog</a></li>
+                                    <li><a href="#">English for General Purposes</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Filipino Seniors Project</a></li>
+                            <li><a href="#">Child Minding Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@UIStrings.VolunteeringAndMembership <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Volunteer Opportunities</a></li>
+                            <li><a href="#">Volunteer Stories and Testimonies</a></li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1">Application Forms</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Volunteers</a></li>
+                                    <li><a href="#">Membership - Individual & Affiliates</a></li>
+                                    <li><a href="#">Nomination for Board of Director</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@UIStrings.Media <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Video</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Event's Reports</a></li>
+                        </ul>
+                    </li>
+
+                    @*<li>@Html.ActionLink(UIStrings.Contact, "Contact", "Home")</li>*@
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
