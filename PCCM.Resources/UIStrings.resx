@@ -120,17 +120,41 @@
   <data name="About" xml:space="preserve">
     <value>About Us</value>
   </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
   <data name="Admin" xml:space="preserve">
-    <value>Admin</value>
+    <value>Administrator</value>
   </data>
   <data name="Contact" xml:space="preserve">
     <value>Contacts</value>
   </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="Login" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
   <data name="ShortWebTitle" xml:space="preserve">
     <value>PCCM</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Users</value>
   </data>
   <data name="WebTitle" xml:space="preserve">
     <value>Philippine Canadian Centre of Manitoba</value>
