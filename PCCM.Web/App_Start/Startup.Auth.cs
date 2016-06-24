@@ -5,8 +5,9 @@ using Microsoft.Owin.Security.Cookies;
 using IdentitySample.Models;
 using Owin;
 using System;
+using PCCM.Web.Model;
 
-namespace IdentitySample
+namespace PCCM.Web
 {
     public partial class Startup
     {
