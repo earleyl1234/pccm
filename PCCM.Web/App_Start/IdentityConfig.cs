@@ -10,9 +10,10 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Threading.Tasks;
 using System.Web;
-using PCCM.Web.Model;
+using PCCM.Web.Domain.Models;
+using static PCCM.Web.Domain.Models.ApplicationUser;
 
-namespace IdentitySample.Models
+namespace PCCM.Web
 {
     // Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
 
@@ -66,26 +67,6 @@ namespace IdentitySample.Models
                     new DataProtectorTokenProvider<ApplicationUser>(dataProtectionProvider.Create("ASP.NET Identity"));
             }
             return manager;
-        }
-    }
-
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
-    {
-        public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
-        {
-        }
-
-        static ApplicationDbContext()
-        {
-            // Set the database intializer which is run once during application start
-            // This seeds the database with admin user credentials and admin role
-            Database.SetInitializer<ApplicationDbContext>(new ApplicationDbInitializer());
-        }
-
-        public static ApplicationDbContext Create()
-        {
-            return new ApplicationDbContext();
         }
     }
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PCCM.Web.Model
+namespace PCCM.Web.Domain.Models
 {
     public class Rentals
     {

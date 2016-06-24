@@ -1,6 +1,4 @@
-﻿using System.Globalization;
-using IdentitySample.Models;
-using Microsoft.AspNet.Identity;
+﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using System;
@@ -9,7 +7,8 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using PCCM.Web.Model;
+using PCCM.Web.Domain.Models;
+using PCCM.Web;
 
 namespace IdentitySample.Controllers
 {
