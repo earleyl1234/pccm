@@ -17,7 +17,7 @@ namespace PCCM.Web
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             
             //Disable the line bellow during development.
-            //Database.SetInitializer(new ApplicationDbInitializer());
+            Database.SetInitializer(new ApplicationDbInitializer());
         }
     }
 }

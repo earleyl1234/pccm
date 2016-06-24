@@ -28,12 +28,6 @@
                     <li>@Html.ActionLink(UIStrings.Home, "Index", "Home")</li>
                     <li>@Html.ActionLink(UIStrings.About, "About", "Home")</li>
                     <li>@Html.ActionLink(UIStrings.Contact, "Contact", "Home")</li>
-
-                    @if (Request.IsAuthenticated && User.IsInRole("Admin"))
-                    {
-                        <li>@Html.ActionLink("RolesAdmin", "Index", "RolesAdmin")</li>
-                        <li>@Html.ActionLink("UsersAdmin", "Index", "UsersAdmin")</li>
-                    }
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
