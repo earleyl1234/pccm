@@ -1,11 +1,11 @@
 ﻿body {
-  padding-top: 70px;
   padding-bottom: 20px;
 }
 /* Set padding to keep content from hitting the edges */
 .body-content {
   padding-left: 15px;
   padding-right: 15px;
+  min-height: 800px;
 }
 /* Set width on the form input elements since they're 100% wide by default */
 input,
@@ -31,4 +31,14 @@ input[type="checkbox"].input-validation-error {
 }
 .validation-summary-valid {
   display: none;
+}
+.top-banner img {
+  max-height: ;
+  width: 100%;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  position: static;
+  bottom: 0;
 }
