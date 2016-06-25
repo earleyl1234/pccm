@@ -117,8 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="a" xml:space="preserve">
+    <value />
+  </data>
   <data name="About" xml:space="preserve">
     <value>About Us</value>
+  </data>
+  <data name="Accessibility" xml:space="preserve">
+    <value>Accessibility</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Add</value>
@@ -126,7 +132,25 @@
   <data name="Admin" xml:space="preserve">
     <value>Administrator</value>
   </data>
-  <data name="Contact" xml:space="preserve">
+  <data name="Affiliates" xml:space="preserve">
+    <value>Affiliates</value>
+  </data>
+  <data name="AnnualReport" xml:space="preserve">
+    <value>Annual Report</value>
+  </data>
+  <data name="ByLaws" xml:space="preserve">
+    <value>By-Laws</value>
+  </data>
+  <data name="CoIA" xml:space="preserve">
+    <value>Conflict of Interest Agreement</value>
+  </data>
+  <data name="Confidentiality" xml:space="preserve">
+    <value>Confidentiality</value>
+  </data>
+  <data name="Constitution" xml:space="preserve">
+    <value>Constitution</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
     <value>Contacts</value>
   </data>
   <data name="Delete" xml:space="preserve">
@@ -138,14 +162,32 @@
   <data name="DeveloperName2" xml:space="preserve">
     <value>Rosel John Candoy</value>
   </data>
+  <data name="Donors" xml:space="preserve">
+    <value>Donors</value>
+  </data>
   <data name="Events" xml:space="preserve">
     <value>Events</value>
+  </data>
+  <data name="FinancialStatements" xml:space="preserve">
+    <value>Financial Statements</value>
+  </data>
+  <data name="Founders" xml:space="preserve">
+    <value>Founders</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Gallery</value>
   </data>
+  <data name="HistortyOfPCCM" xml:space="preserve">
+    <value>History of PCCM</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
+  </data>
+  <data name="HousingInformation" xml:space="preserve">
+    <value>HousingInformation</value>
+  </data>
+  <data name="JobSearch" xml:space="preserve">
+    <value>Job Search</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Log in</value>
@@ -156,8 +198,20 @@
   <data name="Media" xml:space="preserve">
     <value>Media</value>
   </data>
-  <data name="ProgramsAndServices" xml:space="preserve">
-    <value>Program &amp; Services</value>
+  <data name="Membership" xml:space="preserve">
+    <value>Membership</value>
+  </data>
+  <data name="MissionAndValues" xml:space="preserve">
+    <value>Mission</value>
+  </data>
+  <data name="Officers" xml:space="preserve">
+    <value>Officers</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>Programs</value>
   </data>
   <data name="Register" xml:space="preserve">
     <value>Register</value>
@@ -168,17 +222,38 @@
   <data name="Roles" xml:space="preserve">
     <value>Roles</value>
   </data>
+  <data name="s" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
   <data name="ShortWebTitle" xml:space="preserve">
     <value>PCCM</value>
+  </data>
+  <data name="Sponsors" xml:space="preserve">
+    <value>Sponsors</value>
+  </data>
+  <data name="Staffs" xml:space="preserve">
+    <value>Staffs</value>
   </data>
   <data name="Update" xml:space="preserve">
     <value>Update</value>
   </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Useful Links</value>
+  </data>
   <data name="Users" xml:space="preserve">
     <value>Users</value>
   </data>
-  <data name="VolunteeringAndMembership" xml:space="preserve">
-    <value>Volunteering &amp; Membership</value>
+  <data name="Values" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="Volunteering" xml:space="preserve">
+    <value>Volunteering</value>
   </data>
   <data name="WebTitle" xml:space="preserve">
     <value>Philippine Canadian Centre of Manitoba</value>

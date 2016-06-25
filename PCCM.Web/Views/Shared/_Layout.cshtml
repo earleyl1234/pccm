@@ -32,7 +32,7 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink(UIStrings.Home, "Index", "Home")</li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@UIStrings.ProgramsAndServices <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@UIStrings.Programs & @UIStrings.Services <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Rental of Facility</a></li>
                             <li class="dropdown-submenu">
@@ -65,7 +65,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@UIStrings.VolunteeringAndMembership <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@UIStrings.Volunteering & @UIStrings.Membership <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Volunteer Opportunities</a></li>
                             <li><a href="#">Volunteer Stories and Testimonies</a></li>
@@ -103,30 +103,30 @@
             <div class="col-md-4">
                 <h4>@UIStrings.About</h4>
                 <ul>
-                    <li><a href="#">Mission and Values</a></li>
-                    <li><a href="#">Officers</a></li>
-                    <li><a href="#">Staffs</a></li>
-                    <li><a href="#">Membership</a></li>
-                    <li><a href="#">Founders</a></li>
-                    <li><a href="#">Sponsors & Donors</a></li>
-                    <li><a href="#">Affiliates & Partners</a></li>
-                    <li><a href="#">Confidentiality & Conflict of Interest Agreement</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="@Url.Action("Index","About")#mission">@UIStrings.MissionAndValues</a></li>
+                    <li><a href="@Url.Action("Index","About")#officers">@UIStrings.Officers</a></li>
+                    <li><a href="@Url.Action("Index","About")#staffs">@UIStrings.Staffs</a></li>
+                    <li><a href="@Url.Action("Index","About")#membership">@UIStrings.Membership</a></li>
+                    <li><a href="@Url.Action("Index","About")#founders">@UIStrings.Founders</a></li>
+                    <li><a href="@Url.Action("Index","About")#sponsors">@UIStrings.Sponsors & @UIStrings.Donors</a></li>
+                    <li><a href="@Url.Action("Index","About")#affiliates">@UIStrings.Affiliates</a></li>
+                    <li><a href="@Url.Action("Index","About")#confidentiality">@UIStrings.Confidentiality & @UIStrings.CoIA</a></li>
+                    <li><a href="@Url.Action("Index","About")#privacy">@UIStrings.PrivacyPolicy</a></li>
+                    <li><a href="@Url.Action("Index","About")#accessibility">@UIStrings.Accessibility</a></li>
                 </ul>
             </div>
             <div class="col-md-4">
-                <h4>@UIStrings.Contact</h4>
+                <h4>@UIStrings.Contacts</h4>
             </div>
             <div class="col-md-4">
                 <h4>@UIStrings.Resources</h4>
                 <ul>
-                    <li><a href="#">Annual Report & Financial Statements</a></li>
-                    <li><a href="#">Consitution & By-Laws</a></li>
-                    <li><a href="#">Job Search</a></li>
-                    <li><a href="#">Housing Information</a></li>
-                    <li><a href="#">History of @UIStrings.ShortWebTitle</a></li>
-                    <li><a href="#">Userful Link</a></li>
+                    <li><a href="#">@UIStrings.AnnualReport</a></li>
+                    <li><a href="#">@UIStrings.Constitution & @UIStrings.ByLaws</a></li>
+                    <li><a href="#">@UIStrings.JobSearch</a></li>
+                    <li><a href="#">@UIStrings.HousingInformation</a></li>
+                    <li><a href="#">@UIStrings.HistortyOfPCCM</a></li>
+                    <li><a href="#">@UIStrings.UsefulLinks</a></li>
                 </ul>
             </div>
         </div>
