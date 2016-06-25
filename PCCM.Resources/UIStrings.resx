@@ -132,6 +132,12 @@
   <data name="Delete" xml:space="preserve">
     <value>Delete</value>
   </data>
+  <data name="DeveloperName1" xml:space="preserve">
+    <value>Earl Lagaya</value>
+  </data>
+  <data name="DeveloperName2" xml:space="preserve">
+    <value>Rosel John Candoy</value>
+  </data>
   <data name="Events" xml:space="preserve">
     <value>Events</value>
   </data>

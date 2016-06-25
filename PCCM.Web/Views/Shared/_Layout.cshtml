@@ -8,14 +8,17 @@
     <title>@UIStrings.WebTitle</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 </head>
 <body>
-    <div class="top-banner">
+    <div class="top-banner" data-spy="affix-top">
         <div class="banner-text">
             <h1>@UIStrings.WebTitle</h1>
         </div>
+        <a class="scrolldown" href="#content"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
     </div>
-    <div class="navbar navbar-inverse navbar-default navbar-static-top">
+    <div class="navbar navbar-inverse navbar-default navbar-static-top" data-spy="affix" data-offset-top="900">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -106,16 +109,52 @@
             </div>
         </div>
     </div>
-    <div class="container body-content">
+    <div id="content" class="container body-content">
         @RenderBody()
     </div>
-    <footer class="container">
-        <p>
-        <hr />
-            Copyright &copy; @(DateTime.Now.Year.ToString() != "2016" ? $"2016 - {DateTime.Now.Year}"
-                                   : $"{DateTime.Now.Year}") by @UIStrings.ShortWebTitle. All rights reserved.
-        </p>
-    </footer>
+<footer class="footer-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>@UIStrings.About</h4>                
+                <ul>
+                    <li><a href="#">Mission and Values</a></li>
+                    <li><a href="#">Officers</a></li>
+                    <li><a href="#">Staffs</a></li>
+                    <li><a href="#">Membership</a></li>
+                    <li><a href="#">Founders</a></li>
+                    <li><a href="#">Sponsors & Donors</a></li>
+                    <li><a href="#">Affiliates & Partners</a></li>
+                    <li><a href="#">Confidentiality & Conflict of Interest Agreement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>                
+            </div>
+            <div class="col-md-4">
+                <h4>@UIStrings.Contact</h4>
+            </div>
+            <div class="col-md-4">
+                <h4>@UIStrings.Resources</h4>
+                <ul>
+                    <li><a href="#">Annual Report & Financial Statements</a></li>
+                    <li><a href="#">Consitution & By-Laws</a></li>
+                    <li><a href="#">Job Search</a></li>
+                    <li><a href="#">Housing Information</a></li>
+                    <li><a href="#">History of @UIStrings.ShortWebTitle</a></li>
+                    <li><a href="#">Userful Link</a></li>
+                </ul> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">
+                    Copyright &copy; @(DateTime.Now.Year.ToString() != "2016" ? $"2016 - {DateTime.Now.Year}"
+                                       : $"{DateTime.Now.Year}") by @UIStrings.DeveloperName1. All rights reserved.
+                </p>
+            </div>  
+        </div>
+    </div>
+</footer>
 @Scripts.Render("~/bundles/jquery")
 @Scripts.Render("~/bundles/bootstrap")
 @RenderSection("scripts", required: false)

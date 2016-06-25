@@ -106,6 +106,24 @@ namespace PCCM.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Earl Lagaya.
+        /// </summary>
+        public static string DeveloperName1 {
+            get {
+                return ResourceManager.GetString("DeveloperName1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rosel John Candoy.
+        /// </summary>
+        public static string DeveloperName2 {
+            get {
+                return ResourceManager.GetString("DeveloperName2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Events.
         /// </summary>
         public static string Events {
