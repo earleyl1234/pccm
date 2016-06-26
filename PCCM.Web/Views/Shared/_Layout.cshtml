@@ -5,15 +5,36 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@UIStrings.WebTitle</title>
+    <title>@ViewBag.Title | @UIStrings.WebTitle</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
+    @*Website fonts*@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <div class="top-banner">
-        <div class="banner-text">
+        <div class="banner-text hidden-sm hidden-xs">
             <h1>@UIStrings.WebTitle</h1>
         </div>
         <a class="scrolldown" href="#content"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
@@ -34,47 +55,47 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@UIStrings.Programs & @UIStrings.Services <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Rental of Facility</a></li>
+                            <li><a href="#">@UIStrings.RentalOfFacility</a></li>
                             <li class="dropdown-submenu">
-                                <a tabindex="-1">Employment Support</a>
+                                <a tabindex="-1">@UIStrings.EmploymentSupport</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Professionals</a></li>
-                                    <li><a href="#">Skilled Worker</a></li>
+                                    <li><a href="#">@UIStrings.Professionals</a></li>
+                                    <li><a href="#">@UIStrings.SkilledWorker</a></li>
                                     <li class="dropdown-submenu">
-                                        <a tabindex="-1">Programs</a>
+                                        <a tabindex="-1">@UIStrings.Programs</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="#">Mentorship</a></li>
-                                            <li><a href="#">Practicum Opportunities</a></li>
-                                            <li><a href="#">Job Search Workshops</a></li>
-                                            <li><a href="#">Canadian Work Experience</a></li>
+                                            <li><a href="#">@UIStrings.Mentorship</a></li>
+                                            <li><a href="#">@UIStrings.PracticumOpportunities</a></li>
+                                            <li><a href="#">@UIStrings.JobSearchWorkshops</a></li>
+                                            <li><a href="#">@UIStrings.CanadianWorkExperience</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="#">Business Start-Up & Settlement</a></li>
-                            <li><a href="#">Walk-In Counseling</a></li>
+                            <li><a href="#">@UIStrings.BusinessStartup & @UIStrings.Settlement</a></li>
+                            <li><a href="#">@UIStrings.WalkInCounceling</a></li>
                             <li class="dropdown-submenu">
-                                <a tabindex="-1">Language Training</a>
+                                <a tabindex="-1">@UIStrings.LanguageTraining</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Spoken Tagalog</a></li>
-                                    <li><a href="#">English for General Purposes</a></li>
+                                    <li><a href="#">@UIStrings.SpokenTagalog</a></li>
+                                    <li><a href="#">@UIStrings.EnglishForGeneral</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Filipino Seniors Project</a></li>
-                            <li><a href="#">Child Minding Services</a></li>
+                            <li><a href="#">@UIStrings.FilipinoSeniorsProject</a></li>
+                            <li><a href="#">@UIStrings.ChildMindling</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@UIStrings.Volunteering & @UIStrings.Membership <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Volunteer Opportunities</a></li>
-                            <li><a href="#">Volunteer Stories and Testimonies</a></li>
+                            <li><a href="#">@UIStrings.VolunteerOpportunities</a></li>
+                            <li><a href="#">@UIStrings.VolunteerStories</a></li>
                             <li class="dropdown-submenu">
-                                <a tabindex="-1">Application Forms</a>
+                                <a tabindex="-1">@UIStrings.ApplicationForms</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Volunteers</a></li>
-                                    <li><a href="#">Membership - Individual & Affiliates</a></li>
-                                    <li><a href="#">Nomination for Board of Director</a></li>
+                                    <li><a href="#">@UIStrings.Volunteers</a></li>
+                                    <li><a href="#">@UIStrings.Membership - @UIStrings.Individual & @UIStrings.Affiliates</a></li>
+                                    <li><a href="#">@UIStrings.NominationForBoardOfDirector</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -82,13 +103,11 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@UIStrings.Media <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Video</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Event's Reports</a></li>
+                            <li><a href="@Url.Action("Vidoes","Media")">@UIStrings.Videos</a></li>
+                            <li><a href="@Url.Action("Gallery","Media")">@UIStrings.Gallery</a></li>
+                            <li><a href="@Url.Action("Events","Media")">@UIStrings.EventsReports</a></li>
                         </ul>
                     </li>
-
-                    @*<li>@Html.ActionLink(UIStrings.Contact, "Contact", "Home")</li>*@
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -121,12 +140,13 @@
             <div class="col-md-4">
                 <h4>@UIStrings.Resources</h4>
                 <ul>
-                    <li><a href="#">@UIStrings.AnnualReport</a></li>
-                    <li><a href="#">@UIStrings.Constitution & @UIStrings.ByLaws</a></li>
-                    <li><a href="#">@UIStrings.JobSearch</a></li>
-                    <li><a href="#">@UIStrings.HousingInformation</a></li>
-                    <li><a href="#">@UIStrings.HistortyOfPCCM</a></li>
-                    <li><a href="#">@UIStrings.UsefulLinks</a></li>
+                    <li><a href="@Url.Action("AnnualReport","Resources")">@UIStrings.AnnualReport</a></li>
+                    <li><a href="@Url.Action("ConstitutionAndByLaws","Resources")">@UIStrings.Constitution & @UIStrings.ByLaws</a></li>
+                    <li><a href="@Url.Action("JobSearch","Resources")">@UIStrings.JobSearch</a></li>
+                    <li><a href="@Url.Action("Housing","Resources")">@UIStrings.HousingInformation</a></li>
+                    <li><a href="@Url.Action("History","Resources")">@UIStrings.HistortyOfPCCM</a></li>
+                    <li><a href="@Url.Action("Legals","Resources")">@UIStrings.Legals</a></li>
+                    <li><a href="@Url.Action("UsefulLinks","Resources")">@UIStrings.UsefulLinks</a></li>
                 </ul>
             </div>
         </div>
