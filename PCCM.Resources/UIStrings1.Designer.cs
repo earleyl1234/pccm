@@ -124,11 +124,47 @@ namespace PCCM.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Application Forms.
+        /// </summary>
+        public static string ApplicationForms {
+            get {
+                return ResourceManager.GetString("ApplicationForms", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Business Start-Up.
+        /// </summary>
+        public static string BusinessStartup {
+            get {
+                return ResourceManager.GetString("BusinessStartup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to By-Laws.
         /// </summary>
         public static string ByLaws {
             get {
                 return ResourceManager.GetString("ByLaws", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Canadian Work Experience.
+        /// </summary>
+        public static string CanadianWorkExperience {
+            get {
+                return ResourceManager.GetString("CanadianWorkExperience", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Child Mindling Services.
+        /// </summary>
+        public static string ChildMindling {
+            get {
+                return ResourceManager.GetString("ChildMindling", resourceCulture);
             }
         }
         
@@ -205,11 +241,47 @@ namespace PCCM.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Employment Support.
+        /// </summary>
+        public static string EmploymentSupport {
+            get {
+                return ResourceManager.GetString("EmploymentSupport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English for General Purposes.
+        /// </summary>
+        public static string EnglishForGeneral {
+            get {
+                return ResourceManager.GetString("EnglishForGeneral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Events.
         /// </summary>
         public static string Events {
             get {
                 return ResourceManager.GetString("Events", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Event&apos;s Reports.
+        /// </summary>
+        public static string EventsReports {
+            get {
+                return ResourceManager.GetString("EventsReports", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filipino Seniors Project.
+        /// </summary>
+        public static string FilipinoSeniorsProject {
+            get {
+                return ResourceManager.GetString("FilipinoSeniorsProject", resourceCulture);
             }
         }
         
@@ -259,11 +331,20 @@ namespace PCCM.Web.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to HousingInformation.
+        ///   Looks up a localized string similar to Housing Information.
         /// </summary>
         public static string HousingInformation {
             get {
                 return ResourceManager.GetString("HousingInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Individual.
+        /// </summary>
+        public static string Individual {
+            get {
+                return ResourceManager.GetString("Individual", resourceCulture);
             }
         }
         
@@ -273,6 +354,33 @@ namespace PCCM.Web.Resources {
         public static string JobSearch {
             get {
                 return ResourceManager.GetString("JobSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Job Search Workshops.
+        /// </summary>
+        public static string JobSearchWorkshops {
+            get {
+                return ResourceManager.GetString("JobSearchWorkshops", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language Training.
+        /// </summary>
+        public static string LanguageTraining {
+            get {
+                return ResourceManager.GetString("LanguageTraining", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Terms of Use &amp; Policies.
+        /// </summary>
+        public static string Legals {
+            get {
+                return ResourceManager.GetString("Legals", resourceCulture);
             }
         }
         
@@ -313,11 +421,29 @@ namespace PCCM.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Mentorship.
+        /// </summary>
+        public static string Mentorship {
+            get {
+                return ResourceManager.GetString("Mentorship", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mission.
         /// </summary>
         public static string MissionAndValues {
             get {
                 return ResourceManager.GetString("MissionAndValues", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nomination for Board of Director.
+        /// </summary>
+        public static string NominationForBoardOfDirector {
+            get {
+                return ResourceManager.GetString("NominationForBoardOfDirector", resourceCulture);
             }
         }
         
@@ -331,11 +457,29 @@ namespace PCCM.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Practicum Opportunities.
+        /// </summary>
+        public static string PracticumOpportunities {
+            get {
+                return ResourceManager.GetString("PracticumOpportunities", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Privacy Policy.
         /// </summary>
         public static string PrivacyPolicy {
             get {
                 return ResourceManager.GetString("PrivacyPolicy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Professionals.
+        /// </summary>
+        public static string Professionals {
+            get {
+                return ResourceManager.GetString("Professionals", resourceCulture);
             }
         }
         
@@ -358,6 +502,15 @@ namespace PCCM.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rental of Facility.
+        /// </summary>
+        public static string RentalOfFacility {
+            get {
+                return ResourceManager.GetString("RentalOfFacility", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Resources.
         /// </summary>
         public static string Resources {
@@ -372,15 +525,6 @@ namespace PCCM.Web.Resources {
         public static string Roles {
             get {
                 return ResourceManager.GetString("Roles", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string s {
-            get {
-                return ResourceManager.GetString("s", resourceCulture);
             }
         }
         
@@ -403,11 +547,38 @@ namespace PCCM.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Settlement.
+        /// </summary>
+        public static string Settlement {
+            get {
+                return ResourceManager.GetString("Settlement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to PCCM.
         /// </summary>
         public static string ShortWebTitle {
             get {
                 return ResourceManager.GetString("ShortWebTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Skilled Worker.
+        /// </summary>
+        public static string SkilledWorker {
+            get {
+                return ResourceManager.GetString("SkilledWorker", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spoken Tagalog.
+        /// </summary>
+        public static string SpokenTagalog {
+            get {
+                return ResourceManager.GetString("SpokenTagalog", resourceCulture);
             }
         }
         
@@ -466,11 +637,56 @@ namespace PCCM.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Videos.
+        /// </summary>
+        public static string Videos {
+            get {
+                return ResourceManager.GetString("Videos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Volunteering.
         /// </summary>
         public static string Volunteering {
             get {
                 return ResourceManager.GetString("Volunteering", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volunteer Opportunities.
+        /// </summary>
+        public static string VolunteerOpportunities {
+            get {
+                return ResourceManager.GetString("VolunteerOpportunities", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volunteers.
+        /// </summary>
+        public static string Volunteers {
+            get {
+                return ResourceManager.GetString("Volunteers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volunteer Stories and Testimonies.
+        /// </summary>
+        public static string VolunteerStories {
+            get {
+                return ResourceManager.GetString("VolunteerStories", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Walk-In Counceling.
+        /// </summary>
+        public static string WalkInCounceling {
+            get {
+                return ResourceManager.GetString("WalkInCounceling", resourceCulture);
             }
         }
         
