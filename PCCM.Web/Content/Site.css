@@ -47,7 +47,7 @@ body {
 .body-content {
   padding-left: 15px;
   padding-right: 15px;
-  min-height: 800px;
+  min-height: 100vh;
   padding-bottom: 20px;
 }
 /* Set width on the form input elements since they're 100% wide by default */
@@ -118,11 +118,11 @@ footer {
   position: relative;
 }
 .scrolldown {
+  width: 100%;
   position: absolute;
   font-size: 5em;
   color: #fff;
-  bottom: 15px;
-  right: 50%;
+  bottom: 0.3em;
   text-align: center;
 }
 .footer-container ul {
